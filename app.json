@@ -1,0 +1,21 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/bp-lab"
+    }
+  ],
+  "description": "testing purpose",
+  "env": {
+    "DB_CONF": "https://12345678.com",
+    "AUTH": "https://12345678.com"
+  },
+  "formation": {
+  },
+  "name": "app-lab01",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
